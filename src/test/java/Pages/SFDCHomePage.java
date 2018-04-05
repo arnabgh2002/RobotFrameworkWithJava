@@ -82,9 +82,9 @@ public class SFDCHomePage {
 				Thread.sleep(2000);
 				FrameWorkConstants.extdSel2Lib.click(newButtonLT);
 			}else if(FrameWorkConstants.sfdcView.equals("Classic")){
-				FrameWorkConstants.extdSel2Lib.click(contactsTab);
 				Thread.sleep(2000);
 				lightningPopupClose();
+				FrameWorkConstants.extdSel2Lib.click(contactsTab);
 				Thread.sleep(2000);
 				FrameWorkConstants.extdSel2Lib.click(newButton);
 			}else{
@@ -104,9 +104,9 @@ public class SFDCHomePage {
 				Thread.sleep(2000);
 				FrameWorkConstants.extdSel2Lib.click(newButtonLT);
 			}else if(FrameWorkConstants.sfdcView.equals("Classic")){
-				FrameWorkConstants.extdSel2Lib.click(leadsTab);
 				Thread.sleep(2000);
 				lightningPopupClose();
+				FrameWorkConstants.extdSel2Lib.click(leadsTab);
 				Thread.sleep(2000);
 				FrameWorkConstants.extdSel2Lib.click(newButton);
 			}else{
@@ -127,9 +127,9 @@ public class SFDCHomePage {
 				Thread.sleep(2000);
 				FrameWorkConstants.extdSel2Lib.click(newButtonLT);
 			}else if(FrameWorkConstants.sfdcView.equals("Classic")){
-				FrameWorkConstants.extdSel2Lib.click(chatterTab);
 				Thread.sleep(2000);
 				lightningPopupClose();
+				FrameWorkConstants.extdSel2Lib.click(chatterTab);
 				Thread.sleep(2000);
 			}else{
 				System.out.println("NavigateToChatterPage() --> sfdcView is not valid");
@@ -150,9 +150,9 @@ public class SFDCHomePage {
 				Thread.sleep(2000);
 				FrameWorkConstants.extdSel2Lib.click(newButtonLT);
 			}else if(FrameWorkConstants.sfdcView.equals("Classic")){
-				FrameWorkConstants.extdSel2Lib.click(campaignsTab);
 				Thread.sleep(2000);
 				lightningPopupClose();
+				FrameWorkConstants.extdSel2Lib.click(campaignsTab);
 				Thread.sleep(2000);
 				FrameWorkConstants.extdSel2Lib.click(newButton);
 			}else{
@@ -173,9 +173,9 @@ public class SFDCHomePage {
 				Thread.sleep(2000);
 				FrameWorkConstants.extdSel2Lib.click(newButtonLT);
 			}else if(FrameWorkConstants.sfdcView.equals("Classic")){
-				FrameWorkConstants.extdSel2Lib.click(accountsTab);
 				Thread.sleep(2000);
 				lightningPopupClose();
+				FrameWorkConstants.extdSel2Lib.click(accountsTab);
 				Thread.sleep(2000);
 				FrameWorkConstants.extdSel2Lib.click(newButton);
 			}else{
@@ -196,9 +196,9 @@ public class SFDCHomePage {
 				Thread.sleep(2000);
 				FrameWorkConstants.extdSel2Lib.click(newButtonLT);
 			}else if(FrameWorkConstants.sfdcView.equals("Classic")){
-				FrameWorkConstants.extdSel2Lib.click(opportunitiesTab);
 				Thread.sleep(2000);
 				lightningPopupClose();
+				FrameWorkConstants.extdSel2Lib.click(opportunitiesTab);				
 				Thread.sleep(2000);
 				FrameWorkConstants.extdSel2Lib.click(newButton);
 			}else{
@@ -229,9 +229,9 @@ public class SFDCHomePage {
 				Thread.sleep(2000);
 				FrameWorkConstants.extdSel2Lib.click(newButtonLT);
 			}else if(FrameWorkConstants.sfdcView.equals("Classic")){
-				FrameWorkConstants.extdSel2Lib.click(casesTab);
 				Thread.sleep(2000);
 				lightningPopupClose();
+				FrameWorkConstants.extdSel2Lib.click(casesTab);
 				Thread.sleep(2000);
 				FrameWorkConstants.extdSel2Lib.click(newButton);
 			}else{
@@ -353,6 +353,7 @@ public class SFDCHomePage {
 		try{
 //			Alert lightningAlert=FrameWorkConstants.extdSel2Lib.driver.switchTo().alert();
 //			lightningAlert.accept();
+			Thread.sleep(2000);
 			FrameWorkConstants.extdSel2Lib.click(lightingAlertClose);
 			
 		}catch(Exception e){
