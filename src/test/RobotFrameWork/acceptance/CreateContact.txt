@@ -19,7 +19,7 @@ Test Create Contact
 #    Open Browser  https://login.salesforce.com  chrome  None  http://ec2-52-207-244-122.compute-1.amazonaws.com:4444/wd/hub
 	SFDC Login  cognizant.qeacrm@sfdc.com  Cognizant@04
 	Sleep  5s
-    SFDCViewSelection  Classic
+    SFDCViewSelection  Lightning
     Sleep  5s
     appLauncher  Sales
     NavigateToContactPage
