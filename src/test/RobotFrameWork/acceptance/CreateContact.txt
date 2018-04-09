@@ -25,4 +25,4 @@ Test Create Contact
     NavigateToContactPage
     ${contactResult}  Create Contact
     Log  ${contactResult}
-#    Close Browser
+    Close Browser
